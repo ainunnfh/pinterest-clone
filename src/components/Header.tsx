@@ -9,27 +9,27 @@ const Header = () => {
   return (
     <div className="p-3 bg-white shadow-sm h-20 flex items-center justify-around">
       <div>
-        <FaPinterest />
+        <FaPinterest className="h-6 w-6 text-red-600" />
       </div>
-      <div>Home</div>
-      <div>Explore</div>
-      <div>Create</div>
+      <div className="font-semibold text-gray-800">Home</div>
+      <div className="font-semibold text-gray-800">Explore</div>
+      <div className="font-semibold text-gray-800">Create</div>
       <div className="bg-slate-200 rounded-full p-1 w-1/4">
-        <div className="flex gap-1 items-center text-[#8e8e8e]">
+        <div className="flex gap-1 items-center text-gray-900">
           <FaSearch color="#8e8e8e" /> Explore
         </div>
       </div>
       <div>
-        <IoNotifications />
+        <IoNotifications className="h-6 w-6 text-gray-500" />
       </div>
       <div>
-        <IoChatbubbleEllipsesSharp />
+        <IoChatbubbleEllipsesSharp className="h-6 w-6 text-gray-500" />
       </div>
       <div>
-        <CgProfile />
+        <CgProfile className="h-6 w-6 text-gray-500 " />
       </div>
       <div>
-        <IoIosArrowDown />
+        <IoIosArrowDown className="h-6 w-6 text-gray-500" />
       </div>
     </div>
   );
