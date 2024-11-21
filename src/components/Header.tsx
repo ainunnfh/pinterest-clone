@@ -7,31 +7,29 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 const Header = () => {
   return (
-    <div className="p-3">
-      <div className="flex justify-between">
-        <div>
-          <FaPinterest />
+    <div className="p-3 bg-white shadow-sm h-20 flex items-center justify-around">
+      <div>
+        <FaPinterest />
+      </div>
+      <div>Home</div>
+      <div>Explore</div>
+      <div>Create</div>
+      <div className="bg-slate-200 rounded-full p-1 w-1/4">
+        <div className="flex gap-1 items-center text-[#8e8e8e]">
+          <FaSearch color="#8e8e8e" /> Explore
         </div>
-        <div>Home</div>
-        <div>Explore</div>
-        <div>Create</div>
-        <div className="bg-slate-200 rounded-full p-1 w-1/4">
-          <div>
-            <FaSearch color="#8e8e8e" />
-          </div>
-        </div>
-        <div>
-          <IoNotifications />
-        </div>
-        <div>
-          <IoChatbubbleEllipsesSharp />
-        </div>
-        <div>
-          <CgProfile />
-        </div>
-        <div>
-          <IoIosArrowDown />
-        </div>
+      </div>
+      <div>
+        <IoNotifications />
+      </div>
+      <div>
+        <IoChatbubbleEllipsesSharp />
+      </div>
+      <div>
+        <CgProfile />
+      </div>
+      <div>
+        <IoIosArrowDown />
       </div>
     </div>
   );
